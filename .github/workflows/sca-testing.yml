@@ -1,0 +1,8 @@
+name: SCA Testing
+
+on:
+  workflow_dispatch:  # Allows manual trigger
+
+jobs:
+  sca-testing:
+    uses: piloulacdog/playground/.github/workflows/sca-testing.yml@main
